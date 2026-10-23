@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/harvest-moon-codex/sw.js', { scope: '/harvest-moon-codex/' })})}
