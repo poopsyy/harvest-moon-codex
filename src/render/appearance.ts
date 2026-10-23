@@ -164,14 +164,16 @@ export async function createAppearancePreview(
       const image = new Image();
       image.onload = () => resolve(image);
       image.onerror = reject;
-      image.src = "/assets/atlas.png";
+      image.src = `${import.meta.env.BASE_URL}assets/atlas.png`;
     }),
-    fetch("/assets/atlas.json").then(async (response) => {
-      if (!response.ok) throw new Error("Avatar atlas unavailable");
-      return (await response.json()) as {
-        frames: Record<string, { frame: Rect }>;
-      };
-    }),
+    fetch(`${import.meta.env.BASE_URL}assets/atlas.json`).then(
+      async (response) => {
+        if (!response.ok) throw new Error("Avatar atlas unavailable");
+        return (await response.json()) as {
+          frames: Record<string, { frame: Rect }>;
+        };
+      },
+    ),
   ]).then(([image, atlas]) => ({ image, frames: atlas.frames }));
   const { image, frames } = await previewAssets;
   return composite(

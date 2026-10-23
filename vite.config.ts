@@ -1,6 +1,8 @@
 import { defineConfig } from "vite";
 import { VitePWA } from "vite-plugin-pwa";
+const base = process.env.VITE_BASE_PATH || "/";
 export default defineConfig({
+  base,
   plugins: [
     VitePWA({
       registerType: "autoUpdate",
@@ -12,7 +14,8 @@ export default defineConfig({
         background_color: "#f4e7ca",
         display: "standalone",
         orientation: "any",
-        start_url: "/",
+        start_url: base,
+        scope: base,
         icons: [
           {
             src: "icon-192.png",

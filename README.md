@@ -70,7 +70,19 @@ The game loads renderer code separately from the title interface. Vite PWA gener
 
 ## Static deployment
 
-All three providers use the same static `dist/` output. No server or database is required. Deploy at the domain root unless Vite base paths and manifest paths are deliberately adjusted. Use HTTPS for installability and service workers.
+All three providers use the same static `dist/` output. No server or database is required. The default build deploys at the domain root. Set `VITE_BASE_PATH` to a leading-and-trailing-slash path for a subdirectory deployment; runtime assets and the PWA scope follow it. Use HTTPS for installability and service workers.
+
+### GitHub Pages preview
+
+The preview files are published separately on the `gh-pages` branch. In repository **Settings → Pages**, choose **Deploy from a branch**, then **gh-pages / (root)**. Once GitHub finishes deployment, the preview URL is `https://poopsyy.github.io/harvest-moon-codex/`.
+
+Build updated preview files with:
+
+```sh
+VITE_BASE_PATH=/harvest-moon-codex/ pnpm build
+```
+
+Publish the contents of `dist/` at the root of `gh-pages`, including an empty `.nojekyll` file. Source commits on `main` alone do not update this preview branch. Changes to gameplay code should also pass the checks above before publishing.
 
 | Provider         | Configuration                                                                                                                                                                      |
 | ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

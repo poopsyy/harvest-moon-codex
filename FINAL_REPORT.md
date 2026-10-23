@@ -1,5 +1,7 @@
 # Willowmere Acres — final build report
 
+Deployment follow-up: runtime asset URLs and PWA paths now support `VITE_BASE_PATH` for GitHub Pages. The subdirectory production build, TypeScript, lint, real-browser new-game journey, and offline title reload passed. The detailed metrics below describe the original acceptance build; they were not remeasured for this deployment-only change.
+
 2026-10-23. **Acceptance remains open.** The game is implemented and playable, with the validation below. The complete brief is not satisfied: Firefox/WebKit could not run, the formal stress sample missed 60 FPS, one cold-load sample exceeded four seconds, physical-device and broadband targets remain unverified, and the requested sequence of twenty checked milestone commits was not followed.
 
 ## What was built

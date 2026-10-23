@@ -8,7 +8,7 @@ interface Atlas {
 }
 let atlas: Atlas | null = null;
 export async function loadAtlas() {
-  const r = await fetch("/assets/atlas.json");
+  const r = await fetch(`${import.meta.env.BASE_URL}assets/atlas.json`);
   if (!r.ok) throw new Error(`Atlas ${r.status}`);
   atlas = (await r.json()) as Atlas;
 }

@@ -204,7 +204,7 @@ export class WillowmereApp {
       .filter((s) => !s.empty && !s.corrupt)
       .sort((a, b) => Date.parse(b.savedAt) - Date.parse(a.savedAt))[0];
     const titleSeason = dateParts(latest?.day ?? 0).season;
-    this.root.innerHTML = `<section class="title-screen"><div class="title-vista" style="background-image:url(/assets/title_${titleSeason}.png)"></div><div class="title-shade"></div>${Array.from({ length: 9 }, (_, i) => `<i class="title-firefly" style="left:${48 + i * 5}%;top:${35 + ((i * 17) % 46)}%;animation-delay:${i * 0.6}s"></i>`).join("")}<div class="title-content"><p class="eyebrow">${t("app.eyebrow")}</p><h1 class="title-logo">${t("app.logoMain")}<span>${t("app.logoSecond")}</span></h1><div class="title-rule"></div><p class="title-tagline">${t("app.tagline")}</p><nav class="title-menu">${button(t("app.start"), "new", {}, "primary")}${hasSave ? button(t("app.continue"), "continue") : ""}${button(t("app.load"), "open", { panel: "load" })}<div class="small-row">${button(t("app.options"), "open", { panel: "options" })}${button(t("app.credits"), "open", { panel: "credits" })}</div></nav></div><footer class="title-footer"><span>${t("app.footer")}</span><span>${t("app.version")} &nbsp; · &nbsp; ${t("app.offline")}</span></footer></section>`;
+    this.root.innerHTML = `<section class="title-screen"><div class="title-vista" style="background-image:url(${import.meta.env.BASE_URL}assets/title_${titleSeason}.png)"></div><div class="title-shade"></div>${Array.from({ length: 9 }, (_, i) => `<i class="title-firefly" style="left:${48 + i * 5}%;top:${35 + ((i * 17) % 46)}%;animation-delay:${i * 0.6}s"></i>`).join("")}<div class="title-content"><p class="eyebrow">${t("app.eyebrow")}</p><h1 class="title-logo">${t("app.logoMain")}<span>${t("app.logoSecond")}</span></h1><div class="title-rule"></div><p class="title-tagline">${t("app.tagline")}</p><nav class="title-menu">${button(t("app.start"), "new", {}, "primary")}${hasSave ? button(t("app.continue"), "continue") : ""}${button(t("app.load"), "open", { panel: "load" })}<div class="small-row">${button(t("app.options"), "open", { panel: "options" })}${button(t("app.credits"), "open", { panel: "credits" })}</div></nav></div><footer class="title-footer"><span>${t("app.footer")}</span><span>${t("app.version")} &nbsp; · &nbsp; ${t("app.offline")}</span></footer></section>`;
     this.audio.play("title");
   }
   private newGame() {
@@ -261,7 +261,7 @@ export class WillowmereApp {
     this.panel = "intro";
     this.modal(
       t("app.title"),
-      `<img class="intro-art" src="/assets/intro_${["city", "letter", "arrival", "farm"][this.introStep]}.png" alt="${t(`intro.scene${this.introStep + 1}`)}"><div class="intro-page"><span class="eyebrow">${t("intro.eyebrow")}</span><h2>${t("intro.title")}</h2>${narrative.intro
+      `<img class="intro-art" src="${import.meta.env.BASE_URL}assets/intro_${["city", "letter", "arrival", "farm"][this.introStep]}.png" alt="${t(`intro.scene${this.introStep + 1}`)}"><div class="intro-page"><span class="eyebrow">${t("intro.eyebrow")}</span><h2>${t("intro.title")}</h2>${narrative.intro
         .slice([0, 2, 8, 13][this.introStep], [2, 8, 13, 17][this.introStep])
         .map((line) => `<p>${esc(line)}</p>`)
         .join(

@@ -94,7 +94,11 @@ export class World extends Phaser.Scene {
     this.bridge = bridge;
   }
   preload() {
-    this.load.atlas("world", "/assets/atlas.png", "/assets/atlas.json");
+    this.load.atlas(
+      "world",
+      `${import.meta.env.BASE_URL}assets/atlas.png`,
+      `${import.meta.env.BASE_URL}assets/atlas.json`,
+    );
   }
   create() {
     for (const kind of ["floor", "wall"]) {
