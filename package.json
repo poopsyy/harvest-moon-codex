@@ -1,0 +1,42 @@
+{
+  "name": "willowmere-acres",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.25.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "gen:assets": "tsx tools/generate.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src tools tests --max-warnings 0",
+    "format": "prettier --write src tools tests *.json *.ts *.md",
+    "build": "pnpm gen:assets && pnpm typecheck && vite build",
+    "test": "vitest run --coverage",
+    "e2e": "playwright test",
+    "sim": "tsx tests/sim/run.ts",
+    "bundle:check": "tsx tools/budget.ts",
+    "check": "pnpm build && pnpm lint && pnpm test && pnpm e2e && pnpm sim --short && pnpm bundle:check"
+  },
+  "dependencies": {
+    "phaser": "4.2.1",
+    "zod": "4.6.7",
+    "idb-keyval": "6.3.0"
+  },
+  "devDependencies": {
+    "typescript": "6.0.3",
+    "vite": "8.3.5",
+    "vite-plugin-pwa": "2.0.0",
+    "workbox-build": "7.4.1",
+    "workbox-window": "7.4.1",
+    "vitest": "5.0.5",
+    "@vitest/coverage-v8": "5.0.5",
+    "@playwright/test": "1.64.1",
+    "eslint": "10.13.0",
+    "typescript-eslint": "8.72.0",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "pngjs": "7.0.0",
+    "@types/node": "24.19.2",
+    "@types/pngjs": "6.0.5"
+  }
+}

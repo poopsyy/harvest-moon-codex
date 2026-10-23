@@ -1,0 +1,105 @@
+{
+  "measuredAt": "2026-10-23T21:20:06.319Z",
+  "sourceSha256": "4e2fe3cde4bd09db9b0a8acf29bb866dd0b1db57e7ff574c6967253818f02334",
+  "sourceHashDefinition": "SHA256 of sorted src/, tools/, tests/, .github/ files plus package, lockfile, workspace, TS/Vite/Vitest/Playwright/ESLint configs and index.html: path, NUL, bytes, NUL",
+  "productionIndexSha256": "45f9c6473e2441d73c1a64af3f8d05f3b10e4b8cbf2acf607de531029322cba9",
+  "pnpmCheck": {
+    "exitCode": 1,
+    "build": "passed",
+    "typecheck": "passed",
+    "lint": "passed with zero lint warnings",
+    "unitFiles": 16,
+    "unitPassed": 82,
+    "coreAndSystemsCoverage": {
+      "statements": 90.66,
+      "branches": 85.83,
+      "functions": 91.39,
+      "lines": 91.28,
+      "lineThreshold": 85
+    },
+    "browser": {
+      "stats": {
+        "startTime": "2026-10-23T21:20:06.319Z",
+        "duration": 397577.291,
+        "expected": 36,
+        "skipped": 2,
+        "unexpected": 36,
+        "flaky": 0
+      },
+      "projects": {
+        "chromium": {
+          "expected": 17,
+          "skipped": 1
+        },
+        "firefox": {
+          "unexpected": 18
+        },
+        "webkit": {
+          "unexpected": 18
+        },
+        "mobile": {
+          "expected": 17,
+          "skipped": 1
+        },
+        "offline": {
+          "expected": 2
+        }
+      },
+      "failureCauses": {
+        "missingBrowserExecutable": 36
+      },
+      "productFailures": 0,
+      "intentionalSkips": {
+        "chromium": "Touch input test runs on mobile only.",
+        "mobile": "Comparable CDP forced-GC heap measurement runs on desktop Chromium only."
+      }
+    },
+    "shortSimulationAndBundleReachedInChain": false
+  },
+  "separatelyExecuted": {
+    "pnpm sim": {
+      "exitCode": 0,
+      "seeds": 5,
+      "daysPerSeed": 300,
+      "deterministicReplay": "passed",
+      "results": "SIM_RESULTS.json"
+    },
+    "pnpm sim --short": {
+      "exitCode": 0,
+      "days": 30,
+      "results": "SIM_SHORT_RESULTS.json"
+    },
+    "pnpm bundle:check": {
+      "exitCode": 0,
+      "results": "BUNDLE_METRICS.json"
+    },
+    "pnpm exec tsx tools/content.ts": {
+      "exitCode": 0,
+      "allMinimumsMet": true,
+      "results": "CONTENT.md"
+    }
+  },
+  "formalStress": {
+    "worldReadyMs": 4780,
+    "cropTiles": 1048,
+    "scheduledVillagers": 22,
+    "weather": "rain",
+    "frameMeanMs": 19.960833333327127,
+    "frameP95Ms": 33.399999999999636,
+    "heapBefore": 42921108,
+    "heapAfter": 43402508,
+    "retainedGrowthRatio": 0.011215926671790485,
+    "days": 60,
+    "environment": "headless Chromium; CPU/network unthrottled; full field + rain; all NPC schedules simulated, only local villagers rendered; no physical-phone claim"
+  },
+  "formalTitleLoad": {
+    "firstTitleMs": 464.8999999994412,
+    "repeatTitleMs": 238.90000000037253,
+    "environment": "production preview; headless Chromium; unthrottled localhost; browser navigation to two animation frames after title DOM"
+  },
+  "evidenceInCurrentWorkspace": {
+    "log": "/tmp/willowmere-check-final.log",
+    "playwrightJSON": "/tmp/willowmere-check-final-results.json"
+  },
+  "acceptance": "open; cross-browser execution, frame rate and physical-device/broadband validation remain unmet or unverified; original milestone history was not followed"
+}

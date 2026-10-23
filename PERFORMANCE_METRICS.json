@@ -1,0 +1,493 @@
+{
+  "measuredAt": "2026-10-23T21:28:34.840Z",
+  "url": "http://127.0.0.1:4173/",
+  "browser": "System Chromium, headless, fresh persistent profiles, 1440x900",
+  "network": "Loopback localhost; no network throttling. These timings do not establish first-visit broadband performance.",
+  "firstTitle": [
+    {
+      "milliseconds": 494.9710319999999,
+      "navigation": {
+        "name": "http://127.0.0.1:4173/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 403.40000000037253,
+        "navigationId": 7409,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 1,
+        "domainLookupStart": 1,
+        "domainLookupEnd": 1,
+        "connectStart": 1,
+        "secureConnectionStart": 0,
+        "connectEnd": 1,
+        "requestStart": 3.800000000745058,
+        "responseStart": 7.5,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 7.5,
+        "responseEnd": 8.100000000558794,
+        "transferSize": 1093,
+        "encodedBodySize": 793,
+        "decodedBodySize": 793,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 77.6000000005588,
+        "domContentLoadedEventStart": 358.90000000037253,
+        "domContentLoadedEventEnd": 359,
+        "domComplete": 402.80000000074506,
+        "loadEventStart": 402.80000000074506,
+        "loadEventEnd": 403.40000000037253,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "pageErrors": []
+    },
+    {
+      "milliseconds": 491.7021019999993,
+      "navigation": {
+        "name": "http://127.0.0.1:4173/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 348.70000000018626,
+        "navigationId": 3199,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 1.3999999994412065,
+        "domainLookupStart": 1.3999999994412065,
+        "domainLookupEnd": 1.3999999994412065,
+        "connectStart": 1.3999999994412065,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.3999999994412065,
+        "requestStart": 3.5,
+        "responseStart": 6.2000000001862645,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 6.2000000001862645,
+        "responseEnd": 7,
+        "transferSize": 1093,
+        "encodedBodySize": 793,
+        "decodedBodySize": 793,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 55.59999999962747,
+        "domContentLoadedEventStart": 309.70000000018626,
+        "domContentLoadedEventEnd": 309.8999999994412,
+        "domComplete": 347.8999999994412,
+        "loadEventStart": 347.8999999994412,
+        "loadEventEnd": 348.70000000018626,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "pageErrors": []
+    },
+    {
+      "milliseconds": 458.9552139999996,
+      "navigation": {
+        "name": "http://127.0.0.1:4173/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 335.8999999994412,
+        "navigationId": 2312,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 1,
+        "domainLookupStart": 1,
+        "domainLookupEnd": 1,
+        "connectStart": 1,
+        "secureConnectionStart": 0,
+        "connectEnd": 1,
+        "requestStart": 3.7999999998137355,
+        "responseStart": 7.5,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 7.5,
+        "responseEnd": 8.399999999441206,
+        "transferSize": 1093,
+        "encodedBodySize": 793,
+        "decodedBodySize": 793,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 46,
+        "domContentLoadedEventStart": 294.5,
+        "domContentLoadedEventEnd": 295,
+        "domComplete": 335.19999999925494,
+        "loadEventStart": 335.19999999925494,
+        "loadEventEnd": 335.8999999994412,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "pageErrors": []
+    },
+    {
+      "milliseconds": 494.8542970000017,
+      "navigation": {
+        "name": "http://127.0.0.1:4173/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 398,
+        "navigationId": 9142,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 1.599999999627471,
+        "domainLookupStart": 1.599999999627471,
+        "domainLookupEnd": 1.599999999627471,
+        "connectStart": 1.599999999627471,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.599999999627471,
+        "requestStart": 4.099999999627471,
+        "responseStart": 16.299999999813735,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 16.299999999813735,
+        "responseEnd": 16.799999999813735,
+        "transferSize": 1093,
+        "encodedBodySize": 793,
+        "decodedBodySize": 793,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 73.70000000018626,
+        "domContentLoadedEventStart": 374.79999999981374,
+        "domContentLoadedEventEnd": 375,
+        "domComplete": 397.29999999981374,
+        "loadEventStart": 397.29999999981374,
+        "loadEventEnd": 398,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "pageErrors": []
+    },
+    {
+      "milliseconds": 4567.971743999995,
+      "navigation": {
+        "name": "http://127.0.0.1:4173/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 4194.799999999814,
+        "navigationId": 5720,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 3.5,
+        "domainLookupStart": 3.5,
+        "domainLookupEnd": 3.5,
+        "connectStart": 3.5,
+        "secureConnectionStart": 0,
+        "connectEnd": 3.5,
+        "requestStart": 6.5,
+        "responseStart": 25.09999999962747,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 25.09999999962747,
+        "responseEnd": 26.59999999962747,
+        "transferSize": 1093,
+        "encodedBodySize": 793,
+        "decodedBodySize": 793,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 0,
+        "unloadEventEnd": 0,
+        "domInteractive": 297.09999999962747,
+        "domContentLoadedEventStart": 4141.5,
+        "domContentLoadedEventEnd": 4142.0999999996275,
+        "domComplete": 4192.4000000003725,
+        "loadEventStart": 4192.9000000003725,
+        "loadEventEnd": 4194.799999999814,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "pageErrors": []
+    }
+  ],
+  "firstTitleMedianMs": 494.8542970000017,
+  "offlineRepeat": [
+    {
+      "passed": true,
+      "milliseconds": 303.46860899999956,
+      "pageErrors": []
+    },
+    {
+      "passed": true,
+      "milliseconds": 226.1465079999998,
+      "pageErrors": []
+    },
+    {
+      "passed": true,
+      "milliseconds": 238.27301699999953,
+      "pageErrors": []
+    },
+    {
+      "passed": true,
+      "milliseconds": 312.01314400000047,
+      "pageErrors": []
+    },
+    {
+      "passed": true,
+      "milliseconds": 207.0674829999989,
+      "pageErrors": []
+    }
+  ],
+  "offlineRepeatMedianMs": 238.27301699999953,
+  "installability": {
+    "installabilityErrors": []
+  },
+  "manifest": {
+    "url": "http://127.0.0.1:4173/manifest.webmanifest",
+    "errors": [],
+    "data": "{\"name\":\"Willowmere Acres\",\"short_name\":\"Willowmere\",\"description\":\"A little farm. A valley worth keeping.\",\"start_url\":\"/\",\"display\":\"standalone\",\"background_color\":\"#f4e7ca\",\"theme_color\":\"#263e37\",\"lang\":\"en\",\"scope\":\"/\",\"orientation\":\"any\",\"icons\":[{\"src\":\"icon-192.png\",\"sizes\":\"192x192\",\"type\":\"image/png\",\"purpose\":\"any\"},{\"src\":\"icon-512.png\",\"sizes\":\"512x512\",\"type\":\"image/png\",\"purpose\":\"any maskable\"}]}\n",
+    "parsed": {
+      "scope": "http://127.0.0.1:4173/"
+    },
+    "manifest": {
+      "backgroundColor": "rgba(244,231,202,1)",
+      "description": "A little farm. A valley worth keeping.",
+      "display": "kStandalone",
+      "icons": [
+        {
+          "url": "http://127.0.0.1:4173/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "url": "http://127.0.0.1:4173/icon-512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+      ],
+      "id": "http://127.0.0.1:4173/",
+      "name": "Willowmere Acres",
+      "orientation": "ANY",
+      "preferRelatedApplications": false,
+      "scope": "http://127.0.0.1:4173/",
+      "startUrl": "http://127.0.0.1:4173/",
+      "themeColor": "rgba(38,62,55,1)"
+    }
+  },
+  "offlineEvidence": {
+    "online": false,
+    "controlled": true,
+    "cacheNames": ["workbox-precache-v2-http://127.0.0.1:4173/"],
+    "fontLoaded": true,
+    "title": true
+  },
+  "lighthouse": {
+    "version": "13.5.0",
+    "verifiedLicense": "Apache-2.0",
+    "preset": "desktop",
+    "performanceScore": 99,
+    "target": 85,
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+    "environment": {
+      "networkUserAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "hostUserAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "benchmarkIndex": 2061,
+      "credits": {}
+    },
+    "audits": {
+      "first-contentful-paint": {
+        "value": 500.6335,
+        "display": "0.5 s"
+      },
+      "largest-contentful-paint": {
+        "value": 704.95025,
+        "display": "0.7 s"
+      },
+      "speed-index": {
+        "value": 590.1027485152126,
+        "display": "0.6 s"
+      },
+      "total-blocking-time": {
+        "value": 70,
+        "display": "70 ms"
+      },
+      "cumulative-layout-shift": {
+        "value": 0,
+        "display": "0"
+      }
+    },
+    "warnings": [],
+    "report": "/tmp/willowmere-lighthouse-final.report.json",
+    "htmlReport": "/tmp/willowmere-lighthouse-final.report.html"
+  },
+  "buildIndexSha256": "45f9c6473e2441d73c1a64af3f8d05f3b10e4b8cbf2acf607de531029322cba9",
+  "buildManifestSha256": "e8c826c0b48c6451623555182a12ec247c72ede8e43be065c98436b8b7b3fc42",
+  "builtManifest": {
+    "_appearance-ORcFMRdT.js": {
+      "file": "assets/appearance-ORcFMRdT.js",
+      "name": "appearance"
+    },
+    "_engine-B_vcVLyb.js": {
+      "file": "assets/engine-B_vcVLyb.js",
+      "name": "engine"
+    },
+    "index.html": {
+      "file": "assets/index-D6oN-M2m.js",
+      "name": "index",
+      "src": "index.html",
+      "isEntry": true,
+      "dynamicImports": ["_appearance-ORcFMRdT.js", "src/render/world.ts"],
+      "css": ["assets/index-BLgPmXpo.css"]
+    },
+    "src/render/world.ts": {
+      "file": "assets/world-C6rWROqe.js",
+      "name": "world",
+      "src": "src/render/world.ts",
+      "isDynamicEntry": true,
+      "imports": [
+        "_appearance-ORcFMRdT.js",
+        "index.html",
+        "_engine-B_vcVLyb.js"
+      ]
+    }
+  },
+  "titleDefinition": "Elapsed browser navigation until the title-screen interface is visible; Lighthouse separately measures rendered largest contentful paint.",
+  "bundle": {
+    "measuredAt": "2026-10-23T21:27:21.611Z",
+    "initialScripts": [
+      {
+        "file": "assets/index-D6oN-M2m.js",
+        "bytes": 854999,
+        "gzipBytes": 223719
+      }
+    ],
+    "initialGzipBytes": 223719,
+    "initialLimitBytes": 614400,
+    "totalBytes": 6650857,
+    "totalLimitBytes": 15728640,
+    "fileCount": 562,
+    "passed": true
+  },
+  "formalE2EStress": {
+    "worldReadyMs": 4780,
+    "cropTiles": 1048,
+    "scheduledVillagers": 22,
+    "weather": "rain",
+    "frameMeanMs": 19.960833333327127,
+    "frameP95Ms": 33.399999999999636,
+    "heapBefore": 42921108,
+    "heapAfter": 43402508,
+    "retainedGrowthRatio": 0.011215926671790485,
+    "days": 60,
+    "environment": "headless Chromium; CPU/network unthrottled; full field + rain; all NPC schedules simulated, only local villagers rendered; no physical-phone claim",
+    "sourceAttachment": "/tmp/willowmere-final-performance.json",
+    "scope": "Separate development-build Playwright stress scenario; not the production title load benchmark or a physical-device measurement.",
+    "averageFps": 50.09810879640851,
+    "fpsTarget": 60,
+    "fpsTargetMet": false
+  },
+  "formalE2ETitle": {
+    "firstTitleMs": 464.8999999994412,
+    "repeatTitleMs": 238.90000000037253,
+    "environment": "production preview; headless Chromium; unthrottled localhost; browser navigation to two animation frames after title DOM"
+  },
+  "firstTitleRangeMs": {
+    "min": 458.9552139999996,
+    "max": 4567.971743999995
+  },
+  "firstTitleUnderFourSeconds": {
+    "passedSamples": 4,
+    "totalSamples": 5,
+    "allSamplesPassed": false,
+    "scope": "Localhost only; one final sample exceeded four seconds and is retained."
+  },
+  "outlierInspection": {
+    "sample": 5,
+    "pageErrors": [],
+    "documentResponseEndMs": 26.59999999962747,
+    "domInteractiveMs": 297.09999999962747,
+    "domContentLoadedMs": 4142.0999999996275,
+    "loadEventEndMs": 4194.799999999814,
+    "finding": "The document completed at26.6ms; most delay occurred before DOMContentLoaded at4142.1ms. No page JavaScript exception was recorded. Per-resource error/timing traces were not captured, so the cause cannot be conclusively assigned to source, assets, or host scheduling. No samples were discarded or rerun to improve the median."
+  }
+}

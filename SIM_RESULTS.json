@@ -1,0 +1,117 @@
+[
+  {
+    "seed": 1739,
+    "day": 300,
+    "totalEarned": 469029,
+    "money": 368914,
+    "fish": 24,
+    "crops": 1800,
+    "mine": 50,
+    "arcs": 9,
+    "storyScenes": 45,
+    "sunroots": 10,
+    "spouse": "ivy",
+    "marriedDay": 126,
+    "child": {
+      "name": "Wren",
+      "joinedDay": 246,
+      "stage": 1,
+      "kind": "adoption"
+    },
+    "festivals": 9,
+    "ending": "Thriving Willowmere",
+    "hash": "49d638fb"
+  },
+  {
+    "seed": 42,
+    "day": 300,
+    "totalEarned": 467240,
+    "money": 367995,
+    "fish": 24,
+    "crops": 1800,
+    "mine": 50,
+    "arcs": 9,
+    "storyScenes": 45,
+    "sunroots": 10,
+    "spouse": "ivy",
+    "marriedDay": 126,
+    "child": {
+      "name": "Wren",
+      "joinedDay": 246,
+      "stage": 1,
+      "kind": "adoption"
+    },
+    "festivals": 9,
+    "ending": "Thriving Willowmere",
+    "hash": "67232904"
+  },
+  {
+    "seed": 808,
+    "day": 300,
+    "totalEarned": 461432,
+    "money": 359987,
+    "fish": 24,
+    "crops": 1784,
+    "mine": 50,
+    "arcs": 9,
+    "storyScenes": 45,
+    "sunroots": 10,
+    "spouse": "ivy",
+    "marriedDay": 126,
+    "child": {
+      "name": "Wren",
+      "joinedDay": 246,
+      "stage": 1,
+      "kind": "adoption"
+    },
+    "festivals": 9,
+    "ending": "Thriving Willowmere",
+    "hash": "3e1b9678"
+  },
+  {
+    "seed": 2026,
+    "day": 300,
+    "totalEarned": 455730,
+    "money": 352795,
+    "fish": 24,
+    "crops": 1777,
+    "mine": 50,
+    "arcs": 9,
+    "storyScenes": 45,
+    "sunroots": 10,
+    "spouse": "ivy",
+    "marriedDay": 126,
+    "child": {
+      "name": "Wren",
+      "joinedDay": 246,
+      "stage": 1,
+      "kind": "adoption"
+    },
+    "festivals": 9,
+    "ending": "Thriving Willowmere",
+    "hash": "fe9707b9"
+  },
+  {
+    "seed": 991,
+    "day": 300,
+    "totalEarned": 461748,
+    "money": 359533,
+    "fish": 24,
+    "crops": 1800,
+    "mine": 50,
+    "arcs": 9,
+    "storyScenes": 45,
+    "sunroots": 10,
+    "spouse": "ivy",
+    "marriedDay": 126,
+    "child": {
+      "name": "Wren",
+      "joinedDay": 246,
+      "stage": 1,
+      "kind": "adoption"
+    },
+    "festivals": 9,
+    "ending": "Thriving Willowmere",
+    "hash": "7ac7e9c8"
+  }
+]

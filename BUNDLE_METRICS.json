@@ -1,0 +1,16 @@
+{
+  "measuredAt": "2026-10-23T21:27:21.611Z",
+  "initialScripts": [
+    {
+      "file": "assets/index-D6oN-M2m.js",
+      "bytes": 854999,
+      "gzipBytes": 223719
+    }
+  ],
+  "initialGzipBytes": 223719,
+  "initialLimitBytes": 614400,
+  "totalBytes": 6650857,
+  "totalLimitBytes": 15728640,
+  "fileCount": 562,
+  "passed": true
+}
